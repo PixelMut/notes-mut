@@ -1,0 +1,37 @@
+@charset "utf-8";
+// changing bulma variables and adding global styles
+
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+
+// Set your brand colors
+$purple: #A59AD7;
+$pink: #Fe76C2;
+$blue: #37C7F2;
+$light-red: #FFF3F3;
+$light: #fafcff;
+
+$green : #0bf387;
+
+// Update Bulma's global variables
+$family-sans-serif: "Nunito", sans-serif;
+$primary: $purple;
+$link: $blue;
+
+
+// Update some of Bulma's component variables
+$body-background-color: $light;
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-background-color : #f3f5fa;
+$input-shadow: none;
+
+/* GLOBAL STYLES */
+html, body{
+  height: 100%;
+
+  // Set de default font size to 18px
+  font-size : 18px !important;
+  overflow: hidden !important;
+
+}

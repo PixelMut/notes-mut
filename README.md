@@ -2,6 +2,47 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.1.
 
+# This project uses Bulma package for scss : npm install bulma
+ ## integration of custom scss from https://bulma.io/documentation/customize/with-sass-cli/ part 6 into main-style
+ ## changing the colors and font size ( purple, 18px)
+ ## usage of SASS to NEST
+ 
+# This project imports font-awesome (v6):
+# <script src="https://kit.fontawesome.com/5f4f505e48.js" crossorigin="anonymous"></script>
+
+
+
+1st Step :
+  Creation of the header and his styling
+
+2nd Step :
+  Creation of the main container
+  Creation of the card component
+  Usage of Nesting in CSS
+  Integration of SVG file
+  Transition on buttons - image 
+  
+3rd Step :
+  Creation of Note details page
+  Usage of Forms and validators
+  Class Creation
+  Service Creation and injection
+  Routing for new and modification of notes
+  
+4th Step :
+  Creation of animations
+  Staggering between animations
+  
+5th Step :
+  Creation of a filter function
+  Filter on the search term
+  Sorting of the results by relevancy
+  
+
+ 
+
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.

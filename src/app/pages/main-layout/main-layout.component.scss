@@ -1,0 +1,33 @@
+@import "../../../main-style";
+
+.layout-box {
+  display : flex;
+  flex-direction: column;
+  height: 100%;
+
+  overflow : hidden;
+
+  .page-content {
+    flex-grow: 1;
+    overflow-y: scroll;
+  }
+}
+
+.top-bar{
+  width: 100%;
+  height: 68px;
+  background: linear-gradient(to right, $pink, $blue);
+
+  box-shadow: 0 0 10px 0 rgba(black ,0.15);
+  display: flex;
+  flex-shrink: 0; // to prevent the top bar from being squashed
+
+  // center the child element
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    color : white;
+    font-size: 24px;
+  }
+}
